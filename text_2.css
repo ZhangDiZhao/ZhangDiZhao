@@ -1,0 +1,87 @@
+body{
+    text-decoration: none;
+    background-color: gray;
+}
+.navbar{
+    height: 41px;
+    text-align: center;
+    border-bottom: 3px solid #48a8a2;
+    background-color:rgb(112, 124, 129);
+    line-height: 41px;
+    margin-bottom: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    height: 41px;
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0px 20px;
+}
+.wrapper{
+    padding: 10px;
+    background-color: rgb(204, 195, 195);
+    margin: auto;
+    width: 700px;
+    padding-bottom: 20px;
+}
+.nav{
+    height: 100px;
+}
+.cont_1{
+    margin-top: 20px;
+    float: left;
+}
+img{/*对图片进行大小固定*/
+    margin-top: 20px;
+    float: right;
+    width: 130px;
+    height: 150px;
+}
+
+table{/*表格的呈现*/
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.title_text{
+    width: 700px;
+    height: 28px;
+    line-height: 28px;
+    font-weight:bold;
+    color:rgb(31, 107, 194);
+    text-align: left;
+    border-bottom: 2px solid rgb(31, 107, 194);
+}
+.info_list{
+    line-height: 17px;
+    font-size: 12px;
+    color: black;
+    overflow: hidden;
+}
+
+.school{
+    width: 40px;
+    vertical-align: top;
+}
+h1{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer {
+    background-color: gray;
+    width: 100%;
+    height: 45px;
+    float: left;
+    line-height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer p{
+    font-size: 10px;
+    color: black;
+    line-height: 18px;
+    text-align: center;
+}

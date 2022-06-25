@@ -1,0 +1,115 @@
+body{
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.yemei{
+    height: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    height: 41px;
+    text-align: center;
+    border-bottom: 3px solid #48a8a2;
+    background-color:rgb(112, 124, 129);
+    line-height: 41px;
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+    height: 41px;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 0px 20px;
+}
+.nav a:visited{
+    color:whitesmoke ;
+}
+.nav a:hover{
+    color: aquamarine;
+}
+.question-wrapper {
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: gray;
+}
+ td.questiontext {
+    font-family: "宋体";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 6px;
+}
+td.answer {
+    text-align: left;
+}
+.answertext,.answer {
+    text-align: left;
+    font-size: 12px;
+}
+.questiontext a{
+    text-decoration: none;
+}
+textarea {/*其大小在前有进行设置*/
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    color: whitesmoke;
+    background-color: rgb(107, 99, 99);
+    border: 1px solid blanchedalmond;
+}
+.tail {
+    width: 100%;
+    padding: 0px;
+    padding: 0.1em;
+}
+td.submit-buttons {
+    text-align: center;
+    width: 100%;
+    padding: 0.2em;
+}
+.submit {/*对按钮各要素进行设定*/
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin-right: 0.1em;
+    text-decoration: none !important;
+    cursor: pointer;
+    zoom: 1;
+    overflow: visible;
+}
+.button-text {
+    text-decoration: none;
+    line-height: 2em;
+    padding: 0.4em 1em 0.4em 1em;
+}
+.ui-button {
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    background: gray;
+    font-weight: bold;
+}
+.ui-button a:visited{
+    color:whitesmoke ;
+}
+.ui-button a:hover{
+    color: aquamarine;
+}
+.footer {
+    background-color: gray;
+    width: 100%;
+    height: 45px;
+    float: left;
+    line-height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer p{
+    font-size: 10px;
+    color: black;
+    line-height: 18px;
+    text-align: center;
+}
